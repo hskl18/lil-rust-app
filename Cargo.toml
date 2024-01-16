@@ -1,0 +1,19 @@
+[package]
+name = "lil-rust-app"
+version = "0.1.0"
+authors = ["hskl18 <thb182003@gmail.com>"]
+edition = "2021"
+build = "build.rs"
+description = "A lil rust app"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.0"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "income divider"
+identifier = "io.github.hskl18.lil-rust-app"
